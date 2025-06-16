@@ -1,0 +1,96 @@
+{
+  "title": "Mushroom Mayhem",
+  "description": "<p>A Platformer game where you collect powerups and kill enemies by stomping them. Game ends after you reach 500m</p>",
+  "instructions": "Instructions: 1. Use LEFT / RIGHT arrow key to move. 2. Use UP arrow / Square button to jump 3. Use SPACE/ round button to shoot and destroy enemies",
+  "deviceOrientation": "landscape",
+  "imageLoader": {
+    "background": "https://aicade-user-store.s3.amazonaws.com/1139835540/games/2Otj0dJuSfQljOPj/assets/images/background.png?t=1748609228915",
+    "player": "https://aicade-user-store.s3.amazonaws.com/1139835540/games/2Otj0dJuSfQljOPj/assets/images/player.png?t=1748414182308",
+    "enemy": "https://aicade-ui-assets.s3.amazonaws.com/1139835540/games/2Otj0dJuSfQljOPj/assets/image_2_enemy.webp",
+    "collectible": "https://aicade-user-store.s3.amazonaws.com/1139835540/games/2Otj0dJuSfQljOPj/assets/images/collectible.png?t=1748670050719",
+    "collectible_1": "https://aicade-user-store.s3.amazonaws.com/1139835540/games/esRzduPty7rf6GMn/assets/images/coin.png?t=1749198469007",
+    "projectile": "https://aicade-ui-assets.s3.amazonaws.com/1139835540/games/2Otj0dJuSfQljOPj/assets/image_5_projectile.webp",
+    "bottom_platform": "https://aicade-user-store.s3.amazonaws.com/1139835540/games/2Otj0dJuSfQljOPj/assets/images/bottom_platform.png?t=1748606923861",
+    "avatar": "https://aicade-user-store.s3.amazonaws.com/1139835540/games/2Otj0dJuSfQljOPj/assets/images/avatar.png?t=1748500871484",
+    "coin": "https://aicade-user-store.s3.amazonaws.com/1139835540/games/2Otj0dJuSfQljOPj/assets/images/coin.png?t=1748430607642",
+    "heart": "https://aicade-user-store.s3.amazonaws.com/1139835540/games/2Otj0dJuSfQljOPj/assets/images/heart.png?t=1748510310104",
+    "sizeIcon ": "https://aicade-user-store.s3.amazonaws.com/1139835540/games/2Otj0dJuSfQljOPj/assets/images/sizeIcon%20.png?t=1748596114411",
+    "bulletIcon ": "https://aicade-user-store.s3.amazonaws.com/1139835540/games/2Otj0dJuSfQljOPj/assets/images/bulletIcon%20.png?t=1748596219101",
+    "sheild": "https://aicade-user-store.s3.amazonaws.com/1139835540/games/2Otj0dJuSfQljOPj/assets/images/sheild.png?t=1748600870082",
+    "Missile": "https://aicade-user-store.s3.amazonaws.com/1139835540/games/2Otj0dJuSfQljOPj/assets/images/Missile.png?t=1748600889182",
+    "dust": "https://aicade-user-store.s3.amazonaws.com/1139835540/games/2Otj0dJuSfQljOPj/assets/images/dust.png?t=1748629729230",
+    "player_1": "https://aicade-user-store.s3.amazonaws.com/1139835540/games/2Otj0dJuSfQljOPj/assets/images/player_1.png?t=1748670934023",
+    "player_bullet": "https://aicade-user-store.s3.amazonaws.com/1139835540/games/2Otj0dJuSfQljOPj/assets/images/player_bullet.png?t=1748676101000",
+    "player_missile": "https://aicade-user-store.s3.amazonaws.com/1139835540/games/2Otj0dJuSfQljOPj/assets/images/player_missile.png?t=1748671445369",
+    "rocketLauncher": "https://aicade-user-store.s3.amazonaws.com/1139835540/games/2Otj0dJuSfQljOPj/assets/images/rocketLauncher.png?t=1748686216736",
+    "missile": "https://aicade-user-store.s3.amazonaws.com/1139835540/games/2Otj0dJuSfQljOPj/assets/images/missile.png?t=1748687250567",
+    "fireball": "https://aicade-user-store.s3.amazonaws.com/1139835540/games/2Otj0dJuSfQljOPj/assets/images/fireball.png?t=1748766988018",
+    "newAsset_25": "https://aicade-ui-assets.s3.amazonaws.com/1139835540/games/2Otj0dJuSfQljOPj/history/iteration/UKnMCFmcygPi.webp",
+    "enemy_1": "https://aicade-user-store.s3.amazonaws.com/1139835540/games/2Otj0dJuSfQljOPj/assets/images/enemy_1.png?t=1749300275238",
+    "platformGlow": "https://aicade-user-store.s3.amazonaws.com/1139835540/games/2Otj0dJuSfQljOPj/assets/images/platformGlow.png?t=1749300324126",
+    "platform": "https://aicade-user-store.s3.amazonaws.com/1139835540/games/2Otj0dJuSfQljOPj/assets/images/platform.png?t=1749300324153",
+    "boss": "https://aicade-user-store.s3.amazonaws.com/1139835540/games/2Otj0dJuSfQljOPj/assets/images/boss.png?t=1749300342194",
+    "background2": "https://aicade-user-store.s3.amazonaws.com/1139835540/games/2Otj0dJuSfQljOPj/assets/images/background2.png?t=1749301157453",
+    "background3": "https://aicade-user-store.s3.amazonaws.com/1139835540/games/2Otj0dJuSfQljOPj/assets/images/background3.png?t=1749301193882",
+    "bottomPlatform2": "https://aicade-user-store.s3.amazonaws.com/1139835540/games/2Otj0dJuSfQljOPj/assets/images/bottomPlatform2.png?t=1749301241199",
+    "bottomPlatform3": "https://aicade-user-store.s3.amazonaws.com/1139835540/games/2Otj0dJuSfQljOPj/assets/images/bottomPlatform3.png?t=1749301274868",
+    "26796745_2204_w020_n001_1381b_p15_1381": "https://aicade-user-store.s3.amazonaws.com/1139835540/games/2Otj0dJuSfQljOPj/assets/images/26796745_2204_w020_n001_1381b_p15_1381.png?t=1749301389764",
+    "lavaBall": "https://aicade-user-store.s3.amazonaws.com/1139835540/games/2Otj0dJuSfQljOPj/assets/images/lavaBall.png?t=1749301713803",
+    "snowBall": "https://aicade-user-store.s3.amazonaws.com/1139835540/games/2Otj0dJuSfQljOPj/assets/images/snowBall.png?t=1749301825767",
+    "jumpIcon": "https://aicade-user-store.s3.amazonaws.com/1139835540/games/2Otj0dJuSfQljOPj/assets/images/jumpIcon.png?t=1749301629956",
+    "shootIcon": "https://aicade-user-store.s3.amazonaws.com/1139835540/games/2Otj0dJuSfQljOPj/assets/images/shootIcon.png?t=1749301630550",
+    "rightArrow": "https://aicade-user-store.s3.amazonaws.com/1139835540/games/2Otj0dJuSfQljOPj/assets/images/rightArrow.png?t=1749302561543",
+    "leftArrow": "https://aicade-user-store.s3.amazonaws.com/1139835540/games/2Otj0dJuSfQljOPj/assets/images/leftArrow.png?t=1749302590940"
+  },
+  "soundsLoader": {
+    "background": "https://aicade-ui-assets.s3.amazonaws.com/GameAssets/music/bgm-12.mp3",
+    "lose": "https://aicade-ui-assets.s3.amazonaws.com/GameAssets/sfx/lose_1.mp3",
+    "damage": "https://aicade-ui-assets.s3.amazonaws.com/GameAssets/sfx/damage_1.mp3",
+    "jump": "https://aicade-ui-assets.s3.amazonaws.com/GameAssets/sfx/jump_1.mp3",
+    "destroy": "https://aicade-ui-assets.s3.amazonaws.com/GameAssets/sfx/flap_1.wav",
+    "upgrade_1": "https://aicade-ui-assets.s3.amazonaws.com/GameAssets/sfx/upgrade_1.mp3",
+    "upgrade_2": "https://aicade-ui-assets.s3.amazonaws.com/GameAssets/sfx/upgrade_2.mp3",
+    "collect": "https://aicade-ui-assets.s3.amazonaws.com/GameAssets/sfx/collect_3.mp3",
+    "shoot": "https://aicade-ui-assets.s3.amazonaws.com/GameAssets/sfx/shoot_3.mp3",
+    "stretch": "https://aicade-ui-assets.s3.amazonaws.com/GameAssets/sfx/shoot_1.mp3",
+    "success": "https://aicade-ui-assets.s3.amazonaws.com/GameAssets/sfx/success_1.wav"
+  },
+  "deviceOrientationSizes": {
+    "landscape": {
+      "height": 720,
+      "width": 1280
+    },
+    "portrait": {
+      "height": 1280,
+      "width": 720
+    }
+  },
+  "phaserUrl": "https://cdnjs.cloudflare.com/ajax/libs/phaser/3.80.1/phaser.min.js",
+  "phaserVersion": "3.80.1",
+  "orientationSizes": {
+    "landscape": {
+      "height": 720,
+      "width": 1280
+    },
+    "portrait": {
+      "height": 1280,
+      "width": 720
+    }
+  },
+  "mobile_portrait": false,
+  "libLoader": {
+    "pauseButton": "https://aicade-ui-assets.s3.amazonaws.com/GameAssets/icons/pause.png",
+    "snowflake": "https://aicade-user-store.s3.amazonaws.com/1139835540/games/esRzduPty7rf6GMn/assets/images/snowflake.png?t=1749188835771",
+    "fireTrail": "https://aicade-user-store.s3.amazonaws.com/1139835540/games/esRzduPty7rf6GMn/assets/images/fireTrail.png?t=1749188889098",
+    "spark": "https://aicade-user-store.s3.amazonaws.com/1139835540/games/esRzduPty7rf6GMn/assets/images/spark.png?t=1749188984020",
+    "icyBurst": "https://aicade-user-store.s3.amazonaws.com/1139835540/games/esRzduPty7rf6GMn/assets/images/icyBurst.png?t=1749189621085",
+    "dust": "https://aicade-user-store.s3.amazonaws.com/1139835540/games/esRzduPty7rf6GMn/assets/images/dust.png?t=1748862564071",
+    "iconSize": "https://aicade-user-store.s3.amazonaws.com/1139835540/games/esRzduPty7rf6GMn/assets/images/iconSize.png?t=1749198469070",
+    "iconshield": "https://aicade-user-store.s3.amazonaws.com/1139835540/games/esRzduPty7rf6GMn/assets/images/iconshield.png?t=1749198469107",
+    "iconBullet": "https://aicade-user-store.s3.amazonaws.com/1139835540/games/esRzduPty7rf6GMn/assets/images/iconBullet.png?t=1749198468841",
+    "avatar": "https://aicade-user-store.s3.amazonaws.com/1139835540/games/esRzduPty7rf6GMn/assets/images/avatar.png?t=1749198468870",
+    "heart": "https://aicade-user-store.s3.amazonaws.com/1139835540/games/esRzduPty7rf6GMn/assets/images/heart.png?t=1749198468922",
+    "iconmissile": "https://aicade-user-store.s3.amazonaws.com/1139835540/games/esRzduPty7rf6GMn/assets/images/iconmissile.png?t=1749198468980",
+    "coin": "https://aicade-user-store.s3.amazonaws.com/1139835540/games/esRzduPty7rf6GMn/assets/images/coin.png?t=1749198469007"
+  }
+}
